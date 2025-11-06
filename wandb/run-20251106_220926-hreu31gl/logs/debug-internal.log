@@ -1,0 +1,19 @@
+{"time":"2025-11-06T22:11:01.1124066+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-11-06T22:11:01.9771833+01:00","level":"INFO","msg":"stream: created new stream","id":"hreu31gl"}
+{"time":"2025-11-06T22:11:01.9771833+01:00","level":"INFO","msg":"handler: started","stream_id":"hreu31gl"}
+{"time":"2025-11-06T22:11:01.9807653+01:00","level":"INFO","msg":"stream: started","id":"hreu31gl"}
+{"time":"2025-11-06T22:11:01.9817935+01:00","level":"INFO","msg":"writer: started","stream_id":"hreu31gl"}
+{"time":"2025-11-06T22:11:01.9817935+01:00","level":"INFO","msg":"sender: started","stream_id":"hreu31gl"}
+{"time":"2025-11-06T22:12:45.5497245+01:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"context deadline exceeded\",\"path\":[\"project\",\"run\"]}],\"data\":{\"project\":{\"run\":null}}}"}
+{"time":"2025-11-06T22:12:53.5840083+01:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":123}
+{"time":"2025-11-06T22:12:56.753113+01:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":5}
+{"time":"2025-11-06T22:13:36.5633397+01:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":171}
+{"time":"2025-11-06T22:13:37.5175972+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-11-06T22:14:05.5442761+01:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"context deadline exceeded\",\"path\":[\"project\",\"run\"]}],\"data\":{\"project\":{\"run\":null}}}"}
+{"time":"2025-11-06T22:14:33.9003681+01:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":65}
+{"time":"2025-11-06T22:15:25.8078162+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-06T22:15:30.0705177+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-11-06T22:15:30.0956185+01:00","level":"INFO","msg":"stream: closing","id":"hreu31gl"}
+{"time":"2025-11-06T22:15:30.0956185+01:00","level":"INFO","msg":"handler: closed","stream_id":"hreu31gl"}
+{"time":"2025-11-06T22:15:30.0961251+01:00","level":"INFO","msg":"sender: closed","stream_id":"hreu31gl"}
+{"time":"2025-11-06T22:15:30.0961251+01:00","level":"INFO","msg":"stream: closed","id":"hreu31gl"}

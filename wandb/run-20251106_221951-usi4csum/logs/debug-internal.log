@@ -1,0 +1,12 @@
+{"time":"2025-11-06T22:19:51.5844998+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-11-06T22:19:51.9668456+01:00","level":"INFO","msg":"stream: created new stream","id":"usi4csum"}
+{"time":"2025-11-06T22:19:51.9668456+01:00","level":"INFO","msg":"handler: started","stream_id":"usi4csum"}
+{"time":"2025-11-06T22:19:51.9701576+01:00","level":"INFO","msg":"stream: started","id":"usi4csum"}
+{"time":"2025-11-06T22:19:51.9701576+01:00","level":"INFO","msg":"writer: started","stream_id":"usi4csum"}
+{"time":"2025-11-06T22:19:51.9701576+01:00","level":"INFO","msg":"sender: started","stream_id":"usi4csum"}
+{"time":"2025-11-06T22:22:29.1332156+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-06T22:22:29.4359621+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-11-06T22:22:29.4597063+01:00","level":"INFO","msg":"stream: closing","id":"usi4csum"}
+{"time":"2025-11-06T22:22:29.4597063+01:00","level":"INFO","msg":"handler: closed","stream_id":"usi4csum"}
+{"time":"2025-11-06T22:22:29.4780241+01:00","level":"INFO","msg":"sender: closed","stream_id":"usi4csum"}
+{"time":"2025-11-06T22:22:29.4780241+01:00","level":"INFO","msg":"stream: closed","id":"usi4csum"}

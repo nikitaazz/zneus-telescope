@@ -1,0 +1,16 @@
+{"time":"2025-11-06T22:04:46.6512838+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-11-06T22:04:47.924328+01:00","level":"INFO","msg":"stream: created new stream","id":"fn8ah8fu"}
+{"time":"2025-11-06T22:04:47.924328+01:00","level":"INFO","msg":"handler: started","stream_id":"fn8ah8fu"}
+{"time":"2025-11-06T22:04:47.943052+01:00","level":"INFO","msg":"stream: started","id":"fn8ah8fu"}
+{"time":"2025-11-06T22:04:47.9444142+01:00","level":"INFO","msg":"writer: started","stream_id":"fn8ah8fu"}
+{"time":"2025-11-06T22:04:47.9444142+01:00","level":"INFO","msg":"sender: started","stream_id":"fn8ah8fu"}
+{"time":"2025-11-06T22:06:12.5563511+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-11-06T22:06:18.0650062+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-11-06T22:08:48.1516215+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-11-06T22:10:03.618568+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-11-06T22:10:35.0775518+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-06T22:11:01.0660491+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-11-06T22:11:01.088605+01:00","level":"INFO","msg":"stream: closing","id":"fn8ah8fu"}
+{"time":"2025-11-06T22:11:01.088605+01:00","level":"INFO","msg":"handler: closed","stream_id":"fn8ah8fu"}
+{"time":"2025-11-06T22:11:01.1075689+01:00","level":"INFO","msg":"sender: closed","stream_id":"fn8ah8fu"}
+{"time":"2025-11-06T22:11:01.1075689+01:00","level":"INFO","msg":"stream: closed","id":"fn8ah8fu"}

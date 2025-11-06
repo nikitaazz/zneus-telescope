@@ -1,0 +1,47 @@
+_wandb:
+    value:
+        cli_version: 0.22.3
+        e:
+            afx3ku90sw3llvi94b4il90ycr3lv4cw:
+                codePath: zneus-telescope/Main.ipynb
+                cpu_count: 14
+                cpu_count_logical: 20
+                disk:
+                    /:
+                        total: "1023187873792"
+                        used: "414385459200"
+                email: nikiokean20075@gmail.com
+                executable: C:\Users\nikio\AppData\Local\Programs\Python\Python312\python.exe
+                git:
+                    commit: 0947bb924acf508a39a359740b6b23407fd588f0
+                    remote: https://github.com/nikitaazz/zneus-telescope.git
+                host: Nikita
+                memory:
+                    total: "16674258944"
+                os: Windows-11-10.0.26200-SP0
+                program: zneus-telescope/Main.ipynb
+                python: CPython 3.12.3
+                root: C:\Users\nikio\OneDrive\Рабочий стол\University\Zneus\project\zneus-telescope
+                startedAt: "2025-11-06T21:04:43.716456Z"
+                writerId: afx3ku90sw3llvi94b4il90ycr3lv4cw
+        m: []
+        python_version: 3.12.3
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+            "2":
+                - 1
+                - 5
+                - 53
+            "3":
+                - 2
+                - 13
+            "4": 3.12.3
+            "5": 0.22.3
+            "8":
+                - 1
+                - 3
+            "12": 0.22.3
+            "13": windows-amd64
