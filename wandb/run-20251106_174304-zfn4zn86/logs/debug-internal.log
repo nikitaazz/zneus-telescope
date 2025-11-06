@@ -1,0 +1,12 @@
+{"time":"2025-11-06T17:43:04.3598403+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-11-06T17:43:04.6179008+01:00","level":"INFO","msg":"stream: created new stream","id":"zfn4zn86"}
+{"time":"2025-11-06T17:43:04.619148+01:00","level":"INFO","msg":"handler: started","stream_id":"zfn4zn86"}
+{"time":"2025-11-06T17:43:04.6225649+01:00","level":"INFO","msg":"stream: started","id":"zfn4zn86"}
+{"time":"2025-11-06T17:43:04.6231179+01:00","level":"INFO","msg":"writer: started","stream_id":"zfn4zn86"}
+{"time":"2025-11-06T17:43:04.6231179+01:00","level":"INFO","msg":"sender: started","stream_id":"zfn4zn86"}
+{"time":"2025-11-06T17:44:02.8456494+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-06T17:44:03.2806996+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-11-06T17:44:03.3050662+01:00","level":"INFO","msg":"stream: closing","id":"zfn4zn86"}
+{"time":"2025-11-06T17:44:03.3050662+01:00","level":"INFO","msg":"handler: closed","stream_id":"zfn4zn86"}
+{"time":"2025-11-06T17:44:03.3050662+01:00","level":"INFO","msg":"sender: closed","stream_id":"zfn4zn86"}
+{"time":"2025-11-06T17:44:03.3050662+01:00","level":"INFO","msg":"stream: closed","id":"zfn4zn86"}
