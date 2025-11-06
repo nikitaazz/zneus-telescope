@@ -1,0 +1,47 @@
+_wandb:
+    value:
+        cli_version: 0.22.0
+        e:
+            o13162bklte04dscodjccigqe6jf56ka:
+                codePath: Main.ipynb
+                codePathLocal: Main.ipynb
+                cpu_count: 8
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "2047510310912"
+                        used: "625273991168"
+                executable: c:\Users\matej\AppData\Local\Programs\Python\Python313\python.exe
+                git:
+                    commit: 16c60008b62536a1d552fed9a3fd1bf5d43504bf
+                    remote: https://github.com/nikitaazz/zneus-telescope
+                host: HerbysUltrabook
+                memory:
+                    total: "33805643776"
+                os: Windows-11-10.0.26200-SP0
+                program: c:\Users\matej\Nextcloud\FIIT\Semester 5\ZNEUS\zneus-telescope\Main.ipynb
+                python: CPython 3.13.7
+                root: c:\Users\matej\Nextcloud\FIIT\Semester 5\ZNEUS\zneus-telescope
+                startedAt: "2025-11-06T22:31:33.466894Z"
+                writerId: o13162bklte04dscodjccigqe6jf56ka
+        m: []
+        python_version: 3.13.7
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+            "2":
+                - 1
+                - 5
+                - 53
+            "3":
+                - 2
+                - 13
+            "4": 3.13.7
+            "5": 0.22.0
+            "8":
+                - 1
+                - 3
+            "12": 0.22.0
+            "13": windows-amd64

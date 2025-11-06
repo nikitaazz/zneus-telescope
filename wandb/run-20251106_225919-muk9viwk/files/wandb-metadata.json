@@ -1,0 +1,28 @@
+{
+  "os": "Windows-11-10.0.26200-SP0",
+  "python": "CPython 3.13.7",
+  "startedAt": "2025-11-06T21:59:19.625982Z",
+  "program": "c:\\Users\\matej\\Nextcloud\\FIIT\\Semester 5\\ZNEUS\\zneus-telescope\\Main.ipynb",
+  "codePath": "Main.ipynb",
+  "codePathLocal": "Main.ipynb",
+  "git": {
+    "remote": "https://github.com/nikitaazz/zneus-telescope",
+    "commit": "16c60008b62536a1d552fed9a3fd1bf5d43504bf"
+  },
+  "email": "nikiokean20075@gmail.com",
+  "root": "c:\\Users\\matej\\Nextcloud\\FIIT\\Semester 5\\ZNEUS\\zneus-telescope",
+  "host": "HerbysUltrabook",
+  "executable": "c:\\Users\\matej\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "2047510310912",
+      "used": "625182326784"
+    }
+  },
+  "memory": {
+    "total": "33805643776"
+  },
+  "writerId": "nrx8r5wvorl092vq8pmpqa10klvfou69"
+}
