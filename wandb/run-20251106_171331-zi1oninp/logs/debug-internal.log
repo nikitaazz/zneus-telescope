@@ -1,0 +1,14 @@
+{"time":"2025-11-06T17:13:31.7714654+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-11-06T17:13:32.0246969+01:00","level":"INFO","msg":"stream: created new stream","id":"zi1oninp"}
+{"time":"2025-11-06T17:13:32.0246969+01:00","level":"INFO","msg":"handler: started","stream_id":"zi1oninp"}
+{"time":"2025-11-06T17:13:32.0289293+01:00","level":"INFO","msg":"stream: started","id":"zi1oninp"}
+{"time":"2025-11-06T17:13:32.0289293+01:00","level":"INFO","msg":"sender: started","stream_id":"zi1oninp"}
+{"time":"2025-11-06T17:13:32.0289293+01:00","level":"INFO","msg":"writer: started","stream_id":"zi1oninp"}
+{"time":"2025-11-06T17:13:33.3089293+01:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":38}
+{"time":"2025-11-06T17:13:44.8583413+01:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":314}
+{"time":"2025-11-06T17:15:42.1291466+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-06T17:15:42.6709217+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-11-06T17:15:42.6938826+01:00","level":"INFO","msg":"stream: closing","id":"zi1oninp"}
+{"time":"2025-11-06T17:15:42.6938826+01:00","level":"INFO","msg":"handler: closed","stream_id":"zi1oninp"}
+{"time":"2025-11-06T17:15:42.6938826+01:00","level":"INFO","msg":"sender: closed","stream_id":"zi1oninp"}
+{"time":"2025-11-06T17:15:42.6938826+01:00","level":"INFO","msg":"stream: closed","id":"zi1oninp"}
