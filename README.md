@@ -94,18 +94,21 @@
 - Standardized column normalization, class encoding, and preprocessing steps.
 
 ### Data Preprocessing Pipeline
+- We have split our data into 3 groups 
+  - Train
+  - Validation
+  - Test
 
 **Split Configuration**
 ```python
 SPLIT_CONF = {
-    'train_size': 0.70,    # 13,314 samples
-    'val_size': 0.15,      # 2,853 samples  
-    'test_size': 0.15,     # 2,853 samples
+    'train_size': 0.70,    # 13,233 samples
+    'val_size': 0.15,      # 2,836 samples  
+    'test_size': 0.15,     # 2,836 samples  
     'stratify': True       # Maintains class distribution
 }
 ```
 - Stratified splitting ensures balanced class representation across all sets.
-- Two-step split: first separate test set, then split remaining into train/validation.
 
 **Preprocessing Pipeline (sklearn)**
 ```python
@@ -143,7 +146,7 @@ PREPROCESSING_CONFIG = {
 **ModularMLP & MLPTrainer Enhancements**
 - **ModularMLP**: Supports dynamic architecture configuration through dictionary input.
 - **MLPTrainer**: 
-  - Accepts training configuration with automatic wandb integration.
+  - Accepts training configuration with wandb integration.
   - Saves best models with full checkpoint (optimizer state, metrics, history).
   - Built-in visualization methods (`plot_history()`, `evaluate()`).
 
@@ -152,6 +155,7 @@ PREPROCESSING_CONFIG = {
 **Series 01: Adam Optimizer (4 experiments)**
 - Architecture: [256, 128, 128, 64] with Leaky ReLU
 - Learning Rate: 0.005
+- Optimizer Params: betas=(0.9, 0.999), eps=1e-8
 - Variants:
   - **01-A (Baseline)**: No dropout, no batch norm
   - **01-B (Dropout)**: Dropout 0.2, no batch norm
@@ -160,13 +164,34 @@ PREPROCESSING_CONFIG = {
 
 **Series 02: SGD Optimizer (4 experiments)**
 - Architecture: [256, 128, 128, 64] with Leaky ReLU
-- Learning Rate: 0.05, Momentum: 0.9
-- Same regularization variants as Series 01
+- Learning Rate: 0.01
+- Optimizer Params: momentum=0.9
+- Variants:
+  - **02-A (Baseline)**: No dropout, no batch norm
+  - **02-B (Dropout)**: Dropout 0.2, no batch norm
+  - **02-C (BatchNorm)**: No dropout, with batch norm
+  - **02-D (Both)**: Dropout 0.2 + batch norm
 
 **Series 03: RMSprop Optimizer (4 experiments)**
 - Architecture: [256, 128, 128, 64] with Leaky ReLU
-- Learning Rate: 0.005
-- Same regularization variants as Series 01
+- Learning Rate: 0.001
+- Optimizer Params: alpha=0.99, eps=1e-8, momentum=0
+- Variants:
+  - **03-A (Baseline)**: No dropout, no batch norm
+  - **03-B (Dropout)**: Dropout 0.2, no batch norm
+  - **03-C (BatchNorm)**: No dropout, with batch norm
+  - **03-D (Both)**: Dropout 0.2 + batch norm
+
+**Series 05: SGD + Activation Functions (4 experiments)**
+- Architecture: [256, 128] with variable activation
+- Learning Rate: 0.001
+- Optimizer Params: momentum=0.9
+- Configuration: Dropout 0.2 + BatchNorm (both enabled)
+- Variants:
+  - **05-A**: ReLU activation
+  - **05-B**: Leaky ReLU activation
+  - **05-C**: Tanh activation
+  - **05-D**: GELU activation
 
 ### Authors
 - Matej Herzog, Nosenko Mykyta
