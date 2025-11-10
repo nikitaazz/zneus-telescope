@@ -127,10 +127,9 @@ PREPROCESSING_CONFIG = {
 - No dimensionality reduction applied (all features contribute to classification).
 - Features normalized to standard Gaussian distribution.
 
-### Initial MLP Architecture
-- We have proposed our first steps to
-
-### First Experiment Results
+### Initial MLP Architecture and Experiments
+- We have proposed our first steps to our MLP and Trainer
+- Performed first experiment for our presentations
 
 ## Week 3 - Architecture Fine-tuning and Experiment Tracking
 
@@ -168,80 +167,6 @@ PREPROCESSING_CONFIG = {
 - Architecture: [256, 128, 128, 64] with Leaky ReLU
 - Learning Rate: 0.005
 - Same regularization variants as Series 01
-
-**Total Experiments**: 12 systematic comparisons exploring:
-- Optimizer selection (Adam vs. SGD vs. RMSprop)
-- Regularization techniques (Dropout, Batch Normalization, combined)
-- Architecture depth and width
-
-### Weights & Biases Integration
-
-**Experiment Tracking Setup**
-```python
-WANDB_CONFIG = {
-    'project': 'magic-telescope-classification',
-    'entity': None,  # Personal workspace
-    'name': 'exp_01_a_adam_baseline',
-    'tags': ['mlp', 'adam', 'baseline'],
-    'notes': 'Adam optimizer - No regularization baseline'
-}
-```
-
-**Tracked Metrics (per epoch):**
-- Training: loss, accuracy, precision, recall, F1-score, ROC-AUC
-- Validation: loss, accuracy, precision, recall, F1-score, ROC-AUC
-- Learning rate, epoch number
-
-**Experiment Organization:**
-- 12 wandb runs logged to `magic-telescope-classification` project.
-- Tagged by optimizer type, regularization strategy.
-- Saved model checkpoints: `saved_models/exp_*.pth`
-
-### Visualizations
-
-**Training History Plots**
-- 6-panel visualization per experiment:
-  1. Loss curves (train vs. validation)
-  2. Accuracy curves
-  3. Precision curves
-  4. Recall curves
-  5. F1-Score curves
-  6. ROC-AUC curves
-- Color-coded train (blue) vs. validation (orange) metrics.
-- Grid layout for comprehensive performance monitoring.
-
-**Test Evaluation Visualizations**
-- **Confusion Matrix**: Heatmap with annotations (gamma vs. hadron classification).
-- **Metrics Bar Chart**: Side-by-side comparison of accuracy, precision, recall, F1, AUC.
-- Classification report with per-class statistics.
-
-**Comparative Analysis**
-- Enabled side-by-side comparison of 12 experiments through wandb dashboard.
-- Identified best-performing configurations based on validation F1-score.
-
-### Key Findings & Architecture Refinements
-
-**Optimizer Performance:**
-- Adam optimizer showed fastest convergence with lowest variance.
-- SGD required higher learning rate but achieved competitive final performance.
-- RMSprop demonstrated stable training with moderate learning rates.
-
-**Regularization Impact:**
-- Batch normalization significantly improved training stability.
-- Dropout effectively reduced overfitting in deeper architectures.
-- Combined regularization (dropout + batch norm) yielded best generalization.
-
-**Architecture Insights:**
-- Deeper networks [256, 128, 128, 64] outperformed shallow baseline [64, 32].
-- Leaky ReLU activation preferred over tanh for gradient flow.
-- Early stopping (patience=30) prevented unnecessary training epochs.
-
-**Best Model Selection:**
-- Model checkpoints saved based on validation F1-score.
-- All 12 experiments archived in `saved_models/` for reproducibility.
-- Full checkpoint includes model weights, optimizer state, training history, and configuration.
-
----
 
 ### Authors
 - Matej Herzog, Nosenko Mykyta
